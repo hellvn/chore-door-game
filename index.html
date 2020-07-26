@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chore Door!</title>
+    <link href="./styles/css01.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="./images/logo.svg">
+    </div>
+    <div class="title-row">
+        <img src="./images/star.svg">
+        <p class="instructions-title">Introductions</p>
+        <img src="./images/star.svg">
+    </div>
+    <table class="instructions-row">
+        <tr>
+            <td class="instructions-number">1</td>
+            <td class="instructions-text">Hiding be hind one of these doors is the ChoreBot.</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">2</td>
+            <td class="instructions-text">Your mission is to open all of the doors without runing into the ChoreBot.
+            </td>
+        </tr>
+        <tr>
+            <td class="instructions-number">3</td>
+            <td class="instructions-text">If you manage ro avoid the ChoreBot until the very last doors, you win!</td>
+        </tr>
+        <tr>
+            <td class="instructions-number">4</td>
+            <td class="instructions-text">See if you can score a winning streak!</td>
+        </tr>
+    </table>
+    <div class="door-row">
+        <img id="door1" class="door-frame" src="./images/closed_door.svg">
+        <img id="door2" class="door-frame" src="./images/closed_door.svg">
+        <img id="door3" class="door-frame" src="./images/closed_door.svg">
+    </div>
+    <div id="start" class="start-row">Start</div>
+    <div class="score-row">
+        <div class="score-col">
+            <h3>Current Streak:</h3>
+            <p id="curren" class="current-streak">0</p>
+        </div>
+        <div class="score-col">
+            <h3>Best Streak:</h3>
+            <p id="best" class="best-streak">0</p>
+        </div>
+    </div>
+    <script src="./script/js01.js" type="text/javascript"></script>
+</body>
+
+</html>
